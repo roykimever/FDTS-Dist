@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+<!--
+  검색 노출 차단(로이킴님 지시): 이 문서는 지인에게만 링크로 공유하는 용도라
+  구글 등 검색엔진에 색인되지 않게 모든 페이지에 noindex를 넣는다.
+  ※ 프로젝트 페이지(사용자.github.io/저장소/)는 robots.txt가 루트가 아니어서 무시되므로,
+     meta 태그가 유일하게 확실한 방법이다.
+-->
+{% block extrahead %}
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="googlebot" content="noindex, nofollow, noarchive">
+{% endblock %}
