@@ -62,6 +62,7 @@ nav:
   - 👋 소개: index.md
   - 💻 권장사양: requirements.md
   - 🗃️ 준비하기: prep.md
+  - 🗒️ 릴리즈 버전 이력: releases.md
   - ⚙️ HTS 설정:
       - 🇲 메리츠증권: hts/meritz.md
   - 📄 사용방법:
