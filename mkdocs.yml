@@ -29,7 +29,7 @@ theme:
         icon: material/weather-sunny
         name: 라이트 모드로 전환
   features:
-    - navigation.sections      # 사이드바 섹션 그룹
+    - navigation.expand        # 카테고리를 '접고 펴기' + 하위 항목 들여쓰기(펼침 기본)
     - navigation.top           # 맨 위로 버튼
     - navigation.footer        # 하단 Next/Prev
     - navigation.instant       # 빠른 페이지 전환
