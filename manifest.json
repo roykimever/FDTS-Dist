@@ -1,9 +1,9 @@
 {
   "min_version": "5.9.0",
-  "latest_version": "6.0.0",
+  "latest_version": "6.0.1",
   "download_url": "https://roykimever.github.io/FDTS-Dist/download/",
-  "update_url": "https://github.com/roykimever/FDTS-Dist/releases/download/v6.0.0/fdts_update_6.0.0.zip",
-  "update_sha256": "45e72b9c3855934ffb21c5463e2c52a7be41a94d039e42951e5571d2b70bf4ac",
+  "update_url": "https://github.com/roykimever/FDTS-Dist/releases/download/v6.0.1/fdts_update_6.0.1.zip",
+  "update_sha256": "68494093a35c15cf15d5310fe3fd83cbcb20355b65bc3ab2e41334220fbc1225",
   "kill": false,
   "blocked_versions": [],
   "update_message": "새 버전으로 업데이트가 필요합니다. 업데이트 후 이용해 주세요.",
