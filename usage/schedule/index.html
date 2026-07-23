@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../sheet/">
+        <link rel="prev" href="../accounts/">
       
       
-        <link rel="next" href="../morning/">
+        <link rel="next" href="../update/">
       
       
         
@@ -502,17 +502,66 @@
                 
   
   
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚙️ 설정
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ⚙️ 설정
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../accounts/" class="md-nav__link">
+      <a href="../settings/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    👤 계정 설정
+    🔧 일반 설정
   
 
     
@@ -533,14 +582,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../sheet/" class="md-nav__link">
+      <a href="../accounts/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    📊 시트매매(매매법)
+    👤 계정 설정
   
 
     
@@ -653,10 +702,85 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        트레이(상주) 옵션
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../update/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⬆️ 업데이트
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📊 시트매매(매매법)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -705,34 +829,6 @@
     
   
     👥 회원(라이선스)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../settings/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ⚙️ 설정
   
 
     
@@ -893,6 +989,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        트레이(상주) 옵션
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -918,9 +1025,9 @@
 <h2 id="_3">자동 예약 (권장)<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p><strong>미국장 시각을 기준</strong>으로 자동으로 예약을 잡아 줍니다. <strong>썸머타임과 미국 휴장일이 자동 반영</strong>되므로 가장 편리합니다.</p>
 <ul>
-<li><strong>자동 예약 사용</strong> 을 켜면, 아래 <strong>수동 예약은 비활성화</strong>됩니다.</li>
+<li><strong>자동 예약 사용</strong> 을 켜면, 아래 <strong>수동 예약은 비활성화(회색)</strong> 됩니다.</li>
 <li>기준(앵커)은 세 가지 중에서 고릅니다: <strong>프리장 시작 · 정규장 시작 · 정규장 종료</strong></li>
-<li>각 작업을 "앵커 + N분 뒤"로 설정합니다.</li>
+<li>각 작업을 <strong>"앵커 + N분 뒤"</strong> 로 설정합니다.</li>
 </ul>
 <table>
 <thead>
@@ -944,22 +1051,32 @@
 </tbody>
 </table>
 <div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>미국장은 한국과 시차가 있고 썸머타임에 따라 시각이 바뀝니다. 자동 예약을 쓰면 이 계산을 프로그램이 알아서 하므로, 직접 시각을 관리하지 않아도 됩니다.</p>
+<p class="admonition-title">왜 자동 예약이 편한가</p>
+<p>미국장은 한국과 시차가 있고 썸머타임에 따라 시각이 바뀝니다. 자동 예약을 쓰면 이 계산을 프로그램이 알아서 하고, <strong>미국 거래일에만</strong> 예약을 만들어 주말·휴장일도 자동으로 건너뜁니다.</p>
 </div>
 <h2 id="_4">수동 예약<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>원하는 <strong>시각·요일·대상</strong>을 직접 지정하는 방식입니다. (자동 예약을 끄면 사용 가능)</p>
 <ul>
-<li><strong>시각</strong> — 실행할 시각 (예: <code>05:40</code>)</li>
-<li><strong>요일</strong> — 실행할 요일 (월~일 중 선택)</li>
+<li><strong>시각</strong> — 실행할 시(hh)·분(mm) (예: <code>05:40</code>)</li>
+<li><strong>요일</strong> — 실행할 요일 (월~일 중 여러 개 선택)</li>
 <li><strong>대상</strong> — 무엇을 실행할지<ul>
-<li><strong>선택계정</strong> — 드롭다운에서 고른 한 계정</li>
-<li><strong>전체</strong> — 모든 계정 순차 실행</li>
+<li><strong>선택계정</strong> — 아래 <strong>대상계정</strong>에서 체크한 계정만 실행</li>
+<li><strong>전체</strong> — 등록된 모든 계정 순차 실행</li>
 <li><strong>아침결산</strong> — 잔고·시세만 수집 (<a href="../morning/">자세히</a>)</li>
 </ul>
 </li>
 </ul>
-<p>여러 개의 예약을 추가할 수 있습니다. 설정 후 저장하세요.</p>
+<p><strong>[+ 예약 추가]</strong> 로 여러 개의 예약을 만들 수 있고, 각 줄의 <strong>✕</strong> 로 지웁니다. 설정 후 저장하세요.</p>
+<h2 id="_5">트레이(상주) 옵션<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>예약 실행은 프로그램이 켜져 있어야 동작하므로, <strong>창을 닫지 않고 트레이(작업표시줄 알림 영역)에 숨겨</strong> 상주시킬 수 있습니다.</p>
+<ul>
+<li><strong>트레이 사용</strong> — 켜면 창을 <strong>최소화(_)</strong> 할 때 트레이로 숨고, <strong>닫기(X)</strong> 를 누르면 프로그램이 종료됩니다.</li>
+<li><strong>앱 시작 시 트레이로 숨김</strong> — 시작하자마자 트레이로 들어갑니다. 두 가지 중 고릅니다.<ul>
+<li><strong>즉시 숨김</strong> — 켜자마자 트레이로</li>
+<li><strong>실행 후 숨김</strong> — 예약이 한 번 실행된 뒤 트레이로</li>
+</ul>
+</li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">PC가 켜져 있어야 합니다</p>
 <p>예약 실행은 PC가 <strong>켜져 있고 프로그램이 실행(또는 트레이 상주)</strong> 중일 때만 동작합니다. 절전/최대절전 모드로 들어가지 않도록 전원 설정을 확인하세요.</p>
@@ -1001,7 +1118,7 @@
       <nav class="md-footer__inner md-grid" aria-label="하단/푸터" >
         
           
-          <a href="../sheet/" class="md-footer__link md-footer__link--prev" aria-label="이전: 📊 시트매매(매매법)">
+          <a href="../accounts/" class="md-footer__link md-footer__link--prev" aria-label="이전: 👤 계정 설정">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1011,20 +1128,20 @@
                 이전
               </span>
               <div class="md-ellipsis">
-                📊 시트매매(매매법)
+                👤 계정 설정
               </div>
             </div>
           </a>
         
         
           
-          <a href="../morning/" class="md-footer__link md-footer__link--next" aria-label="다음: ☀️ 아침 데이터 결산">
+          <a href="../update/" class="md-footer__link md-footer__link--next" aria-label="다음: ⬆️ 업데이트">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 다음
               </span>
               <div class="md-ellipsis">
-                ☀️ 아침 데이터 결산
+                ⬆️ 업데이트
               </div>
             </div>
             <div class="md-footer__button md-icon">
