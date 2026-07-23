@@ -67,12 +67,14 @@ nav:
       - 🇲 메리츠증권: hts/meritz.md
   - 📄 사용방법:
       - ⭐ 공통: usage/common.md
-      - 👤 계정 설정: usage/accounts.md
+      - ⚙️ 설정:
+          - 🔧 일반 설정: usage/settings.md
+          - 👤 계정 설정: usage/accounts.md
+          - ⏰ 예약 실행: usage/schedule.md
+          - ⬆️ 업데이트: usage/update.md
       - 📊 시트매매(매매법): usage/sheet.md
-      - ⏰ 예약 실행: usage/schedule.md
       - ☀️ 아침 데이터 결산: usage/morning.md
       - 👥 회원(라이선스): usage/member.md
-      - ⚙️ 설정: usage/settings.md
   - ⬇️ 다운로드: download.md
   - 📌 자주 묻는 질문: faq.md
   - 💬 문의하기: contact.md
