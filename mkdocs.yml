@@ -1,0 +1,77 @@
+site_name: FDTS AutoTrading
+site_description: 로이킴에버의 주식 자동매매 — 설정 및 사용 방법 안내
+site_author: 로이킴에버
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: ko
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # 라이트 모드
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로 전환
+    # 다크 모드
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로 전환
+  features:
+    - navigation.sections      # 사이드바 섹션 그룹
+    - navigation.top           # 맨 위로 버튼
+    - navigation.footer        # 하단 Next/Prev
+    - navigation.instant       # 빠른 페이지 전환
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy        # 코드 복사 버튼
+
+markdown_extensions:
+  - admonition                 # 안내/주의 박스
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details           # 접이식 박스
+  - pymdownx.superfences       # 코드블록
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false             # 하단 'Made with' 숨김(원하면 제거)
+
+nav:
+  - 👋 소개: index.md
+  - 💻 권장사양: requirements.md
+  - 🗃️ 준비하기: prep.md
+  - ⚙️ HTS 설정:
+      - 🇲 메리츠증권: hts/meritz.md
+  - 📄 사용방법:
+      - ⭐ 공통: usage/common.md
+      - 👤 계정 설정: usage/accounts.md
+      - 📊 시트매매(매매법): usage/sheet.md
+      - ⏰ 예약 실행: usage/schedule.md
+      - ☀️ 아침 데이터 결산: usage/morning.md
+      - 👥 회원(라이선스): usage/member.md
+      - ⚙️ 설정: usage/settings.md
+  - ⬇️ 다운로드: download.md
+  - 📌 자주 묻는 질문: faq.md
+  - 💬 문의하기: contact.md
