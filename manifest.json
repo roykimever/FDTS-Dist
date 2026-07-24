@@ -1,11 +1,13 @@
 {
   "min_version": "5.9.0",
-  "latest_version": "6.0.4",
+  "latest_version": "6.0.5",
   "download_url": "https://roykimever.github.io/FDTS-Dist/download/",
-  "update_url": "https://github.com/roykimever/FDTS-Dist/releases/download/v6.0.4/fdts_update_6.0.4.zip",
-  "update_sha256": "1b6d7f7eb5a583f804e82cef0633875e316e4bed673901471b5e7943a4a27f43",
+  "update_url": "https://github.com/roykimever/FDTS-Dist/releases/download/v6.0.5/fdts_update_6.0.5.zip",
+  "update_sha256": "22d8cf29ae4135710864c411509ad39dd7275b3250239b89b15bdb5938996132",
   "kill": false,
   "blocked_versions": [],
   "update_message": "새 버전으로 업데이트가 필요합니다. 업데이트 후 이용해 주세요.",
-  "kill_message": "이 버전은 사용이 중지되었습니다. 관리자에게 문의하세요."
+  "kill_message": "이 버전은 사용이 중지되었습니다. 관리자에게 문의하세요.",
+  "release_notes": "- 업데이트 후 '변경 내용' 안내 — 새 버전으로 업데이트되면, 재시작 후 무엇이 바뀌었는지 알려주는 창이 뜹니다.\n- 설정 백업 이력 — 백업할 때마다 덮어쓰지 않고 이력이 쌓입니다. 맨 위가 최신, 아래로 과거 백업이 보존됩니다. (복원은 가장 최신 백업을 사용합니다.)",
+  "release_notes_version": "6.0.5"
 }
