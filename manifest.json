@@ -1,13 +1,13 @@
 {
   "min_version": "5.9.0",
-  "latest_version": "6.0.10",
+  "latest_version": "6.0.11",
   "download_url": "https://roykimever.github.io/FDTS-Dist/download/",
-  "update_url": "https://github.com/roykimever/FDTS-Dist/releases/download/v6.0.10/fdts_update_6.0.10.zip",
-  "update_sha256": "6cde9efe81f5b1437ed22abe8b3eebebcef24d6b8b44fbc31a3fd621c6c0a91d",
+  "update_url": "https://github.com/roykimever/FDTS-Dist/releases/download/v6.0.11/fdts_update_6.0.11.zip",
+  "update_sha256": "c8ed475c7c9f128d1bcbbbbe69556a1bde67a736d4ef9784f21ae0b687988b87",
   "kill": false,
   "blocked_versions": [],
   "update_message": "새 버전으로 업데이트가 필요합니다. 업데이트 후 이용해 주세요.",
   "kill_message": "이 버전은 사용이 중지되었습니다. 관리자에게 문의하세요.",
-  "release_notes": "- MOC 주문이 실제로 나가도록 마무리 — MOC(장마감시장가)는 가격이 없는 주문이라 증권사 화면이 가격칸을 비우고 잠급니다. 그런데 앱이 LOC처럼 가격을 넣고 확인하려다 실패해서, 바로 앞 버전(6.0.9)에서도 주문이 취소되고 있었습니다. 이제 LOC는 가격까지, MOC는 수량까지만 입력하도록 주문 방식을 나눠 처리합니다.\n- MOC 주문의 잘못된 불일치 알림 제거 — 주문 후 확인 단계에서 MOC의 가격을 비교하지 않도록 했습니다. (시트에는 참고 가격이 있지만 증권사 미체결 화면에는 가격이 없어, 실제로는 정상인데도 \"불일치\" 알림이 오던 문제)",
-  "release_notes_version": "6.0.10"
+  "release_notes": "- 매수 주문이 취소되던 문제 해결 (긴급) — 증권사 주문 화면의 주문 유형 목록이 매수와 매도가 서로 다릅니다(매도 10개 / 매수 6개). 6.0.9~6.0.10에서 이를 같은 것으로 보고 계산해, 매수 주문에서 LOC를 고르지 못해 주문이 취소되고 있었습니다. 이제 매수·매도를 각각 맞게 처리합니다. 6.0.10 이하를 쓰고 계시면 반드시 업데이트해 주세요.",
+  "release_notes_version": "6.0.11"
 }
